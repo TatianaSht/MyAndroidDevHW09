@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Android_dev_hw_09" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/whiteBackground</item>
+        <item name="colorSecondary">@color/violet</item>
+        <item name="fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="Theme.Android_dev_hw_09" parent="Base.Theme.Android_dev_hw_09" />
+
+    <style name="Theme.Android_dev_hw_09.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Android_dev_hw_09.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Android_dev_hw_09.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="questionsStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="resultStyle">
+        <item name="android:textSize">36sp</item>
+        <item name="fontFamily">@font/opensans_bold</item>
+    </style>
+</resources>

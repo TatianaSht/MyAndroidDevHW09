@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QUIZ</string>
+    <string name="desc_app_name">your desc application name</string>
+    <string name="desc_welcom_image">your desc welcom image</string>
+
+    <string name="start_button">Начать</string>
+    <string name="days_of_birth_button">Дата рождения</string>
+    <string name="input_birthday_title">Введите дату рождения</string>
+    <string name="back_button">Назад</string>
+    <string name="send_button">Отправить</string>
+    <string name="start_again_button">Начать заново</string>
+
+    <string name="question_one_text">Язык программирования Android Studio:</string>
+    <string name="question_one_radio_buttom_first">Kotlin</string>
+    <string name="question_one_radio_buttom_second">Python</string>
+    <string name="question_one_radio_buttom_third">C#</string>
+
+    <string name="question_two_text">Дата выхода первой стабильной версии Android Studio:</string>
+    <string name="question_two_radio_buttom_first">2012</string>
+    <string name="question_two_radio_buttom_second">2014</string>
+    <string name="question_two_radio_buttom_third">2016</string>
+
+    <string name="question_three_text">Компания-разработчик Android Studio:</string>
+    <string name="question_three_radio_buttom_first">Huawei</string>
+    <string name="question_three_radio_buttom_second">Apple</string>
+    <string name="question_three_radio_buttom_third">Google</string>
+
+    <string name="result_title">Ваш результат:</string>
+</resources>

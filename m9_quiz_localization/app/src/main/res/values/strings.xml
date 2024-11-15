@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">QUIZ</string>
+    <string name="desc_app_name">your desc application name</string>
+    <string name="desc_welcom_image">your desc welcom image</string>
+
+    <string name="start_button">To begin</string>
+    <string name="days_of_birth_button">Date of birth</string>
+    <string name="input_birthday_title">Input your birthday</string>
+    <string name="back_button">Back</string>
+    <string name="send_button">Send</string>
+    <string name="start_again_button">Start again</string>
+
+    <string name="question_one_text">Programming language Android Studio:</string>
+    <string name="question_one_radio_buttom_first">Kotlin</string>
+    <string name="question_one_radio_buttom_second">Python</string>
+    <string name="question_one_radio_buttom_third">C#</string>
+
+    <string name="question_two_text">First stable release date Android Studio:</string>
+    <string name="question_two_radio_buttom_first">2012</string>
+    <string name="question_two_radio_buttom_second">2014</string>
+    <string name="question_two_radio_buttom_third">2016</string>
+
+    <string name="question_three_text">Developer company Android Studio:</string>
+    <string name="question_three_radio_buttom_first">Huawei</string>
+    <string name="question_three_radio_buttom_second">Apple</string>
+    <string name="question_three_radio_buttom_third">Google</string>
+
+    <string name="result_title">Your result:</string>
+</resources>

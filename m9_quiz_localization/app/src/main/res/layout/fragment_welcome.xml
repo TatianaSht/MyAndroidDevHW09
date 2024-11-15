@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeFragment">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc_app_name"
+        android:fontFamily="@font/opensans_bold"
+        android:padding="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/primary"
+        android:textSize="40sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBaseline_toTopOf="@id/welcome_picture" />
+
+    <ImageView
+        android:id="@+id/welcome_picture"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:contentDescription="@string/desc_welcom_image"
+        android:src="@drawable/welcome_picture"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_start" />
+
+    <Button
+        android:background="@drawable/custom_ripple_effect"
+        android:focusable="true"
+        android:clickable="true"
+        android:id="@+id/button_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:fontFamily="@font/opensans_bold"
+        android:text="@string/start_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcome_picture" />
+
+    <Button
+        android:background="@drawable/custom_ripple_effect"
+        android:focusable="true"
+        android:clickable="true"
+        android:id="@+id/button_date_of_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:fontFamily="@font/opensans_bold"
+        android:text="@string/days_of_birth_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_start" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
